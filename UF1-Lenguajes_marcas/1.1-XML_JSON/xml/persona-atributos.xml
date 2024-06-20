@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persona altura="214" >
+	<nombre>Rodri</nombre>
+	<edad>33</edad>
+	<hobbies>
+		<hobbie favorito="true">fotografía</hobbie>
+		<hobbie>viajar</hobbie>
+		<hobbie>montaña</hobbie>
+	</hobbies>
+	<direccion 
+		calle="avenida de la constitución" 
+		numero="23" 
+		ciudad="gijon"></direccion >
+</persona>

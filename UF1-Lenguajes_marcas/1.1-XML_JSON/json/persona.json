@@ -1,0 +1,15 @@
+{
+    "persona":{
+        "nombre": "rodri",
+        "altura": 175,
+        "edad": 33,
+        "direccion": {
+            "calle": "Gnal Elorza",
+            "ciudad": "Oviedo",
+            "numero": 22,
+            "cp": 98798
+        },
+        "hobbies": ["foto","escalar","viajar"]
+
+    }
+}

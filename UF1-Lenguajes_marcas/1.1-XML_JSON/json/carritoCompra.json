@@ -1,0 +1,18 @@
+[
+        {
+            "nombre":"leche",
+            "precio":1,
+            "marcas":["pascual","central lechera"]
+
+        },{
+            "nombre":"agua",
+            "precio":1,
+            "marcas":["cuevas"]
+        
+        },{
+            "nombre":"pan",
+            "precio":1,
+            "marcas":["chapatina"]
+        
+        }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viajeros>
+	<persona>
+		<nombre>Rodrigo</nombre>
+		<edad>33</edad>
+		<direccion>
+			<calle>general elorza</calle>
+			<numero>65</numero>
+			<ciudad>Oviedo</ciudad>
+		</direccion>
+		<listaDeHobbies>
+			<hobbie>viajar</hobbie>
+			<hobbie>montaña</hobbie>
+			<hobbie>fotografía de animales exóticos</hobbie>
+		</listaDeHobbies>
+	</persona>
+	<persona>
+		<nombre>Fulanito</nombre>
+		<edad>33</edad>
+		<direccion>
+			<calle>general elorza</calle>
+			<numero>65</numero>
+			<ciudad>Oviedo</ciudad>
+		</direccion>
+		<listaDeHobbies>
+			<hobbie>viajar</hobbie>
+			<hobbie>montaña</hobbie>
+			<hobbie>fotografía de animales exóticos</hobbie>
+		</listaDeHobbies>
+	</persona>
+	<persona>
+		<nombre>Menganita</nombre>
+		<edad>33</edad>
+		<direccion>
+			<calle>general elorza</calle>
+			<numero>65</numero>
+			<ciudad>Oviedo</ciudad>
+		</direccion>
+		<listaDeHobbies>
+			<hobbie>viajar</hobbie>
+			<hobbie>montaña</hobbie>
+			<hobbie>fotografía de animales exóticos</hobbie>
+		</listaDeHobbies>
+	</persona>
+
+
+</viajeros>

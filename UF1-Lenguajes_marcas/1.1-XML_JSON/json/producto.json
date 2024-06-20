@@ -1,0 +1,10 @@
+{
+    "nombre":"leche",
+    "precio":1,
+    "fabricante":{
+        "nombre":"laskfdj",
+        "pais":"francia",
+        "algo":"kjhagsjhkj"
+    }
+
+}

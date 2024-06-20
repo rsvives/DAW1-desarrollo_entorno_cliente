@@ -1,0 +1,9 @@
+{
+    "titulo": "el señor de los anillos",
+    "autor": {
+        "nombre": "tolkien",
+        "nacionalidad": "sudafrica"
+    },
+    "otrapropiedad":false,
+    "generos":["fantasia","otrogeneromas","cosasepicas"]
+}
