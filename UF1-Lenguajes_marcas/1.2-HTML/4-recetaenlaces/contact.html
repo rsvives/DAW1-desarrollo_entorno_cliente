@@ -19,23 +19,62 @@
     <br />
     <br />
     <form action="">
-      <label>Nombre:</label><br />
-      <input type="text" placeholder="Escribe aquí tu Nombre" required />
+      <label for="nombre">Nombre:</label><br />
+      <input id="nombre" type="text" placeholder="Escribe aquí tu Nombre" />
       <br /><br />
 
-      <label for="">correo:</label><br />
-      <input type="email" placeholder="mail@mail.com" pattern="" />
+      <label for="correo">correo:</label><br />
+      <input id="correo" type="email" placeholder="mail@mail.com" />
       <br /><br />
 
-      <label for="">contraseña:</label><br />
-      <input type="password" placeholder="" />
+      <label for="password">contraseña:</label><br />
+      <input id="password" type="password" placeholder="" />
       <br /><br />
 
-      <label for="">edad:</label><br />
-      <input type="number" placeholder="" />
+      <label for="edad">edad:</label><br />
+      <input id="edad" type="number" placeholder="" />
+      <br /><br />
+
+      Aquí hay que introducir una validacion
+
+      <label for="fNacimiento">fecha nacimiento:</label><br />
+      <input id="fNacimiento" type="date" />
+      <br /><br />
+
+      <label for="situacionLaboral">Situación Laboral:</label> <br />
+      <select name="situacionLaboral" id="situacionLaboral">
+        <option value="desempleado">desempleado</option>
+        <option value="autónomo">autónomo</option>
+        <option value="cuentaAjena">cuenta ajena</option>
+      </select>
+      <br /><br />
+      <hr />
+
+      <h3>Situacion laboral</h3>
+
+      <input type="radio" name="sLaboral" id="desempleado" />
+      <label for="desempleado">desempleado</label><br />
+
+      <input type="radio" name="sLaboral" id="autonomo" />
+      <label for="autonomo">autonomo</label><br />
+
+      <hr />
+
+      <h3>Lenguajes</h3>
+      <input type="radio" name="lenguaje" id="html" />
+      <label for="html">HTML</label><br />
+
+      <input type="radio" name="lenguaje" id="css" />
+      <label for="css">CSS</label><br />
+
+      <input type="radio" name="lenguaje" id="js" />
+      <label for="js">JS</label><br />
+
       <br /><br />
 
       <button type="submit">Enviar</button>
+
+      <br /><br /><br /><br />
     </form>
   </body>
 </html>
