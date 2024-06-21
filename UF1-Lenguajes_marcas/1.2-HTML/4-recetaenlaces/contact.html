@@ -19,14 +19,17 @@
     <br />
     <br />
     <form action="">
+      <!-- Nombre: tipo texto -->
       <label for="nombre">Nombre:</label><br />
       <input id="nombre" type="text" placeholder="Escribe aquí tu Nombre" />
       <br /><br />
 
+      <!-- Correo: tipo email -->
       <label for="correo">correo:</label><br />
       <input id="correo" type="email" placeholder="mail@mail.com" />
       <br /><br />
 
+      <!-- Tipo password -->
       <label for="password">contraseña:</label><br />
       <input id="password" type="password" placeholder="" />
       <br /><br />
@@ -35,12 +38,12 @@
       <input id="edad" type="number" placeholder="" />
       <br /><br />
 
-      Aquí hay que introducir una validacion
-
+      <!-- Tipo date -->
       <label for="fNacimiento">fecha nacimiento:</label><br />
       <input id="fNacimiento" type="date" />
       <br /><br />
 
+      <!-- Select: para una selección única entre varias opciones -->
       <label for="situacionLaboral">Situación Laboral:</label> <br />
       <select name="situacionLaboral" id="situacionLaboral">
         <option value="desempleado">desempleado</option>
@@ -50,17 +53,20 @@
       <br /><br />
       <hr />
 
+      <!-- Radio buttons: para una selección única entre varias opciones. -->
+      <!-- Las opciones de un mismo grupo han de tener el mismo atributo name -->
+      <!-- El for del label y el id del input han de coincidir para que al clickar el texto se marque el botón -->
       <h3>Situacion laboral</h3>
-
       <input type="radio" name="sLaboral" id="desempleado" />
-      <label for="desempleado">desempleado</label><br />
-
+      <label for="desempleado">desempleado</label>
+      <br />
       <input type="radio" name="sLaboral" id="autonomo" />
-      <label for="autonomo">autonomo</label><br />
-
+      <label for="autonomo">autonomo</label>
+      <br />
       <hr />
 
       <h3>Lenguajes</h3>
+      <!-- Checkboxes: similar a la opción anterior pero permiten hacer una selección múltiple -->
       <input type="checkbox" name="lenguaje" id="html" />
       <label for="html">HTML</label><br />
 
@@ -71,16 +77,24 @@
       <label for="js">JS</label><br />
 
       <br /><br />
+
+      <!-- Textarea -->
       <label for="comentarios">Comentarios:</label><br />
       <textarea
         name=""
         id=""
         placeholder="Escribe aquí tu comentario"
       ></textarea>
+      <br /><br />
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox">Acepto las condiciones</label><br />
 
+      <!-- Botón de enviar -->
       <button type="submit">Enviar</button>
+      <!-- Alternativamente se puede hacer con un input submit -->
+      <!-- <input type="submit" value="Enviar Formulario"> -->
 
-      <br /><br /><br /><br />
+      <br /><br />
     </form>
   </body>
 </html>
