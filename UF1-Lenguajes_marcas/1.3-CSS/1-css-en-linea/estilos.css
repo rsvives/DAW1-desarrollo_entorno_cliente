@@ -1,8 +1,14 @@
 /* h1 color rojo */
-
+h1{ 
+    color: red;
+}
 /* todos los parrafos de color rgb(19, 71, 51) */
-
+p{ color: rgb(19, 71, 51);}
 /* parrafos dentro de clase azul -> azul */
-
+.azul p{
+    color: blue;
+}
 /* parrafos dentro de id seccion01 -> color de fondo gray */
-
+#seccion01 p{
+    background-color: gray;
+}
