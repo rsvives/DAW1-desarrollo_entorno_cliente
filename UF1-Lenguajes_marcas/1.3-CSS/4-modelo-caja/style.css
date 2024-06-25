@@ -1,0 +1,14 @@
+.contenedor{
+    text-align: center;
+    padding: 12px;
+    background-color:aqua;
+
+}
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    /* height: 40px; no definir altura fija->la altura se ha de calcular automáticamente con el contenido + el padding  */
+    /* margin: 12px; no definir un margen hacia fuera para separar un elemento de su padre, mejor usar el padding en el padre*/
+    padding: 12px;
+    font-size: 40px;
+}
