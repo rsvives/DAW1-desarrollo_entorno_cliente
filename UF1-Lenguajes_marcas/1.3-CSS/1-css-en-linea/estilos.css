@@ -3,7 +3,7 @@ h1{
     color: red;
 }
 /* todos los parrafos de color rgb(19, 71, 51) */
-p{ color: rgb(19, 71, 51);}
+p:nth-child(){ color: #5db519;}
 /* parrafos dentro de clase azul -> azul */
 .azul p{
     color: blue;
@@ -12,3 +12,10 @@ p{ color: rgb(19, 71, 51);}
 #seccion01 p{
     background-color: gray;
 }
+#hola{
+    color: #fabada;
+}
+body>.verde{
+    color: green;
+}
+

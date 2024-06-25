@@ -1,0 +1,11 @@
+button:last-of-type{
+    color: white;
+    background-color: darkblue;
+    padding: 12px;
+    border: 2px solid black;
+    margin: 24px;
+    width: 100%;
+    max-width: 300px;
+}
+
+

@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    
+}
+
+.blue{
+    background-color: blue;
+    
+}
+.red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+
+}
+.textoBlanco{
+    color: white;
+}

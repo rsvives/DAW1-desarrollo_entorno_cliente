@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi receta</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Mi receta</h1>
+
+    <a href="./index.html">Inicio</a>
+    <a href="./ingredientes.html">Ingredientes</a>
+    <a href="./pasos.html">Pasos</a>
+    <a
+      href="https://es.wikipedia.org/wiki/MasterChef_(programa_de_televisi%C3%B3n_espa%C3%B1ol)"
+      target="_blank"
+      >Referencias</a
+    >
+    <br />
+    <br />
+    <form action="">
+      <!-- Nombre: tipo texto -->
+      <label for="nombre">Nombre:</label><br />
+      <input id="nombre" type="text" placeholder="Escribe aquí tu Nombre" />
+      <br /><br />
+
+      <!-- Correo: tipo email -->
+      <label for="correo">correo:</label><br />
+      <input id="correo" type="email" placeholder="mail@mail.com" />
+      <br /><br />
+
+      <!-- Tipo password -->
+      <label for="password">contraseña:</label><br />
+      <input id="password" type="password" placeholder="" />
+      <br /><br />
+
+      <label for="edad">edad:</label><br />
+      <input id="edad" type="number" placeholder="" />
+      <br /><br />
+
+      <!-- Tipo date -->
+      <label for="fNacimiento">fecha nacimiento:</label><br />
+      <input id="fNacimiento" type="date" />
+      <br /><br />
+
+      <!-- Select: para una selección única entre varias opciones -->
+      <label for="situacionLaboral">Situación Laboral:</label> <br />
+      <select name="situacionLaboral" id="situacionLaboral">
+        <option value="desempleado">desempleado</option>
+        <option value="autónomo">autónomo</option>
+        <option value="cuentaAjena">cuenta ajena</option>
+      </select>
+      <br /><br />
+      <hr />
+
+      <!-- Radio buttons: para una selección única entre varias opciones. -->
+      <!-- Las opciones de un mismo grupo han de tener el mismo atributo name -->
+      <!-- El for del label y el id del input han de coincidir para que al clickar el texto se marque el botón -->
+      <h3>Situacion laboral</h3>
+      <input type="radio" name="sLaboral" id="desempleado" />
+      <label for="desempleado">desempleado</label>
+      <br />
+      <input type="radio" name="sLaboral" id="autonomo" />
+      <label for="autonomo">autonomo</label>
+      <br />
+      <hr />
+
+      <h3>Lenguajes</h3>
+      <!-- Checkboxes: similar a la opción anterior pero permiten hacer una selección múltiple -->
+      <input type="checkbox" name="lenguaje" id="html" />
+      <label for="html">HTML</label><br />
+
+      <input type="checkbox" name="lenguaje" id="css" />
+      <label for="css">CSS</label><br />
+
+      <input type="checkbox" name="lenguaje" id="js" />
+      <label for="js">JS</label><br />
+
+      <br /><br />
+
+      <!-- Textarea -->
+      <label for="comentarios">Comentarios:</label><br />
+      <textarea
+        name=""
+        id=""
+        placeholder="Escribe aquí tu comentario"
+      ></textarea>
+      <br /><br />
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox">Acepto las condiciones</label><br />
+      <br />
+
+      <!-- Botón con otra funcionalidad -->
+      <button width="200" onclick="">Hacer algo</button>
+
+      <!-- <br /><br /> -->
+
+      <!-- Botón de enviar -->
+      <!-- Para que envíe los datos,
+       tiene que tener el tipo submit, aunque por defecto, 
+       el último botón de un formulario si no se especifica lo contrario,
+       es de tipo submit -->
+      <button type="submit">Enviar</button>
+      <!-- Alternativamente se puede hacer con un input submit -->
+      <!-- <input type="submit" value="Enviar Formulario"> -->
+
+      <br /><br />
+    </form>
+  </body>
+</html>
