@@ -1,0 +1,21 @@
+.tarjeta{
+    width: 400px;
+    border: 1px solid;
+    padding: 50px;
+    display: inline-block;
+    background-color: white;
+}
+.tarjeta:first-of-type, .tarjeta:nth-of-type(4){
+    /* también se puede hacer con otra clase e incluir las dos en el mismo class="" separadas por un espacio */
+    background-color: gray;
+}
+
+
+
+
+
+
+
+ div>img{
+    width: 100%;
+}
